@@ -1,0 +1,11 @@
+app:
+  client:
+    hostname: localhost
+    scheme: http
+    port: 9200
+  index:
+    name: kodcu
+    type: tutorial
+    from: 0
+    size: 10
+    timeout: 60
